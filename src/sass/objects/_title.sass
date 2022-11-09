@@ -1,0 +1,22 @@
+.o-title
+  margin-top: 6.8vw
+  text-align: center
+  &__zh
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-family: $font-zh
+    font-size: 1.9rem
+    letter-spacing: 1.6px
+    &::after
+      content: ''
+      display: block
+      +size(1rem,3px)
+      margin: 0.6rem 0
+      background-color: $color-primary
+  &__en
+    margin-bottom: 4vh
+    color: $color-gray-mid
+    font-family: $font-en
+    font-size: 0.75rem
+    letter-spacing: 2px

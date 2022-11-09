@@ -1,0 +1,36 @@
+.c-card__box
+  margin: 0 15vw
+  padding: 0 4vh
+.c-card
+  display: flex
+  flex-direction: column
+  height: 100%
+  padding-bottom: 2vh
+  border-bottom: 1px solid $color-gray-light
+  &.c-card__new
+    &::after
+      content:''
+      display: block
+      position: absolute
+      left: 0
+      top: 0
+      height: 56px
+      width: 56px
+      background-image: url(../img/game/new.svg)
+      background-position: top left
+      background-repeat: no-repeat
+  &__img-mask
+    width: 100%
+  &__content
+    display: flex
+    flex-direction: column
+    height: 100%
+    margin: 1vh 0 10vh
+    font-size: 0.8rem
+  &__bottom
+    display: flex
+  &__date
+    display: flex
+    flex-direction: column
+    color: $color-gray-mid
+    font-size: 0.7rem
