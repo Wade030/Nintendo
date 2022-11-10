@@ -7,8 +7,9 @@ html(lang="en")
 
     link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer")
+    
 
-
+    link(rel="stylesheet" href="css/swiper-bundle.min.css")
     link(rel="stylesheet", href="css/style.css")
 
     title Nintendo測試
@@ -58,7 +59,7 @@ html(lang="en")
           button.carousel-control-next.c-banner__btn-right.--center.--btn-sm.--primary(type='button' data-bs-target='#carouselExampleFade' data-bs-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next
-    main.l-main
+    main
       section.l-topics
         .container
           .row 
@@ -156,14 +157,317 @@ html(lang="en")
                     span Nintendo Switch
                     span.--bold 2022.9.14
                   i.fa-solid.fa-circle-chevron-right
+          .row.o-btn
+            .col-12
+              a.o-btn(href="##")
+                .o-btn__wrap 
+                  i.o-btn__text.fa-solid.fa-circle-chevron-right.--mr.--white
+                  span.o-btn__text.--white TOPICS一覽
+      section.l-newRelease
+        .container
+          .row 
+            .col-12
+              .o-title
+                h2.o-title__zh 最新遊戲軟體
+                h2.o-title__en NEW RELEASE
+          .row.--p0
+            .col-12
+              .swiper.l-newRelease__swiper
+                .swiper-wrapper
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 紙片瑪利歐：摺紙國王
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                  .swiper-slide.l-newRelease__slide
+                    article.c-swipercard
+                      a(href="") 
+                        .c-swipercard__img-mask
+                          img(src="img/newRelease/paper_mario.jpg", alt="paper mario")
+                        .c-swipercard__content 123
+                          span.c-swipercard__text
+                        .c-swipercard__rating
+                          img.c-swipercard__img(src="img/rating/6plus.svg", alt="6+")
+                          img.c-swipercard__img(src="img/rating/zh.svg", alt="zh")
+                        .c-swipercard__date-wrap  
+                          .c-swipercard__date
+                            span.--bold 2020.7.17
+                            span.--bold Nintendo
+                            span 盒裝版
+                          i.fa-solid.fa-circle-chevron-right
+                
+        .container
+          .row
+            .col-12
+              .l-newRelease__btn-swiper.--next
+                i.fa-solid.fa-chevron-right
+              .swiper-scrollbar
+              .l-newRelease__btn-swiper.--prev
+                i.fa-solid.fa-chevron-left
 
-  
 
 
 
 
+          .row.o-btn
+            .col-12
+              a.o-btn(href="##")
+                .o-btn__wrap 
+                  i.o-btn__text.fa-solid.fa-circle-chevron-right.--mr.--white
+                  span.o-btn__text.--sm.--white Nintendo Switch遊戲軟體               
+    footer
+      .container.l-notice
+        .row
+          .col-4.l-notice__title
+            h3.l-notice__title-text 通知
+          .col-8.l-notice__content-box
+            .l-notice__content-wrap 
+              i.fa-solid.fa-circle-chevron-right
+              a.l-notice__content(href="") 
+                span.l-notice__content-text （2022年7月19日更新）有關Nintendo 3DS系列之「Nintendo eShop」服務結束日期通告
+            .l-notice__content-wrap
+              i.fa-solid.fa-circle-chevron-right
+              a.l-notice__content(href="") 
+                span.l-notice__content-text 手提專用的「Nintendo Switch Lite 帝牙盧卡／帕路奇亞」預定發售
+            .l-notice__content-wrap
+              i.fa-solid.fa-circle-chevron-right
+              a.l-notice__content(href="") 
+                span.l-notice__content-text 配置OLED螢幕的Nintendo Switch（OLED款式）預定於2021年10月8日發售，建議售價NTD 10,480（含稅）
+            .l-notice__content-wrap
+              i.fa-solid.fa-circle-chevron-right
+              a.l-notice__content(href="") 
+                span.l-notice__content-text Nintendo 3DS 繁體中文版主機和Nintendo 3DS XL繁體中文版主機之維修服務通知
+      .l-footer__logo
+        .container.l-footer
+          .row 
+            .col-8 
+              .l-footer__img-mask
+                img(src="img/navbar/logo.svg", alt="logo")
+            .col-4
+                .o-gotop
+                  i.o-gotop__text.o-gotop__btn.fa-solid.fa-chevron-up.--white
+                  span.o-gotop__text.--white TOP
 
-
-
-
+  script(src="js/swiper-bundle.min.js")
+  script(src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous")
+  script(src="js/main.js")
   script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous")
